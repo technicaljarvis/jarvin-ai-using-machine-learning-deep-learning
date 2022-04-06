@@ -1,0 +1,86 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello","hii","wake up"],
+            "responses":["hello sir", "what can i do sir?"]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye","good bye","see you later","sleep","exit","thank you","thanks"],
+            "responses":["Bye","good bye"]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","are you fine","are you good"],
+            "responses":["Fine","Cool","Perfect","I'm fine. What about you?`"]
+        },
+        {
+            "tag":"identity",
+            "patterns":["your name","who are you","what is your name","what are you"],
+            "responses":["I am jarvis", "AI Assistant","My name is jarvis","I am you jarvis.","I am your assistant"]
+        },
+        {
+            "tag":"creator",
+            "patterns":["who create you","who is your creator"],
+            "responses":["Vinay salekar","Vinay Salekar creates me"]
+        },
+        {
+            "tag":"robot",
+            "patterns":["are you a robot?"],
+            "responses":["Great question. I'm an AI so I don't quite have feelings the way you do. Do you think you can help me understand what it's like to feel something?"]
+        },
+        {
+            "tag":"work",
+            "patterns":["what can you do?"],
+            "responses":["you can ask me anything", "ask me anything I can answer your questions"]
+        },
+
+
+
+        {
+            "tag":"time",
+            "patterns":["what is the time","time","what,s the time"],
+            "responses":["time"]
+        },
+        {
+            "tag":"date",
+            "patterns":["today's date","date","tarikh"],
+            "responses":["date"]
+        },
+        {
+            "tag":"day",
+            "patterns":["today's day","day"],
+            "responses":["day"]
+        },
+        {
+            "tag":"lighton",
+            "patterns":["light on","turn on light","hall bright"],
+            "responses":["lighton"]
+        },
+        {
+            "tag":"lightoff",
+            "patterns":["light off","turn off light"],
+            "responses":["lightoff"]
+        },
+
+
+
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","about","what is","wikipedia"],
+            "responses":["wikipedia"]
+        },
+        {
+            "tag":"google",
+            "patterns":["google search","google","search","download"],
+            "responses":["google"]
+        },
+        {
+            "tag":"youtube",
+            "patterns":["on youtube","youtube search","search on youtube"],
+            "responses":["youtube"]
+        }
+
+    ]
+}
